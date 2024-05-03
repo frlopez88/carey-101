@@ -7,7 +7,7 @@ const resetButton = document.getElementById('reset');
 
 // Question 4: What happens to the counter value in the HTML when increment is clicked?
 incrementButton.addEventListener('click', function() {
-  debugger
+  //debugger
     count++;
     document.getElementById('counter-value').innerText = count;
 });
@@ -15,7 +15,7 @@ incrementButton.addEventListener('click', function() {
 // Question 5: Why does the decrement button not work?
 decrementButton.addEventListener('click', function() {
     count--;
-    document.getElementById('count-value').innerText = count;
+    document.getElementById('counter-value').innerText = count;
 });
 
 // Question 6: Why does the reset function set the count to '0' as a string?
